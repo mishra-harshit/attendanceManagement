@@ -7,5 +7,6 @@ router.use('/',(req,res)=>{
     res.json({version: appConfig.version})
 })
 
+router.use('/v1',routesV1)
 
 module.exports = router

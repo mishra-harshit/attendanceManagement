@@ -7,7 +7,7 @@ const  constants  = require('../constants');
 
 const db = {};
 
-const sequelize = new Sequelize(dbConfig.database,dbConfig.username,dbConfig.password,{
+const sequelize = new Sequelize(dbConfig.database, dbConfig.username, dbConfig.password,{
   dialect: constants.DB.DIALECT,
   host: dbConfig.host
 })
